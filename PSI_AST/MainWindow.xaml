@@ -1,0 +1,28 @@
+﻿<Window x:Class="PSI_AST.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PSI_AST"
+        mc:Ignorable="d"
+        Title="PSI" Height="450" Width="800" Background="#FF2C2F33">
+    <Grid>
+        <GroupBox Name="xComorbidConditionsGroupbox" Header="Check if Patient Is/Has:" HorizontalAlignment="Left" Foreground="White" FontSize="16" FontFamily="Arial" FontWeight="Bold" Height="191" Margin="552,10,0,0" VerticalAlignment="Top" Width="230">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="4*"/>
+                    <ColumnDefinition Width="105*"/>
+                </Grid.ColumnDefinitions>
+                <CheckBox Name="xNursingHomeCheckbox" Content="Nursing Home Resident" Foreground="White" Margin="7,7,-7,-7" Grid.ColumnSpan="2"/>
+                <CheckBox Name="xNeoPlasticCheckbox" Content="Neoplastic Disease" Foreground="White" Margin="7,27,-7,-7" Grid.ColumnSpan="2"/>
+                <CheckBox Name="xLiverCheckbox" Content="Liver Disease" Foreground="White" Margin="7,47,-7,-7" Grid.ColumnSpan="2"/>
+                <CheckBox Name="xCongestiveHeartCheckbox" Content="Congestive Heart Failure" Foreground="White" Margin="7,67,-7,-7" Grid.ColumnSpan="2"/>
+                <CheckBox Name="xCerebrovascularCheckbox" Content="Cerebrovascular Disease" Foreground="White" Margin="7,87,-7,-7" Grid.ColumnSpan="2"/>
+                <CheckBox Name="xRenalCheckbox" Content="Renal Disease" Foreground="White" Margin="7,107,-7,-7" Grid.ColumnSpan="2"/>
+                <CheckBox Name="xAlteredMentalCheckbox" Content="Altered Mental Status" Foreground="White" Margin="7,127,-7,-7" Grid.ColumnSpan="2"/>
+                <CheckBox Name="xPleuralEffusionCheckbox" Content="Pleural Effusion on Xray" Foreground="White" Margin="7,147,-7,-7" Grid.ColumnSpan="2"/>
+            </Grid>
+        </GroupBox>
+        <Button Name="xCalculateButton" Content="Calculate" HorizontalAlignment="Left" Margin="348,353,0,0" VerticalAlignment="Top" Width="108" Height="36"/>
+    </Grid>
+</Window>
