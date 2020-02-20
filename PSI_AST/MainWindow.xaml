@@ -23,7 +23,7 @@
                 <CheckBox Name="xPleuralEffusionCheckbox" Content="Pleural Effusion on Xray" Foreground="White" Margin="7,147,-7,-7" Grid.ColumnSpan="2"/>
             </Grid>
         </GroupBox>
-        <Button Name="xCalculateButton" Content="Calculate" HorizontalAlignment="Left" Margin="311,247,0,0" VerticalAlignment="Top" Width="108" Height="36"/>
+        <Button Name="xCalculateButton" Content="Calculate" HorizontalAlignment="Left" Margin="311,247,0,0" VerticalAlignment="Top" Width="108" Height="36" Click="xCalculateButton_Click"/>
         <TextBox Name="xAgeTextbox" HorizontalAlignment="Left" Height="23" Margin="50,21,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50"/>
         <Label Content="Age:" HorizontalAlignment="Left" Margin="10,21,0,0" Foreground="White" FontFamily="arial" VerticalAlignment="Top"/>
         <Label Content="Sex:" HorizontalAlignment="Left" Margin="10,60,0,0" Foreground="White" VerticalAlignment="Top"/>
