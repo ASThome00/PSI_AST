@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PSI_AST"
         mc:Ignorable="d"
-        Title="PSI" Height="450" Width="800" Background="#FF2C2F33">
+        Title="PSI" Height="393.2" Width="503.2" Background="#FF2C2F33">
     <Grid>
-        <GroupBox Name="xComorbidConditionsGroupbox" Header="Check if Patient Is/Has:" HorizontalAlignment="Left" Foreground="White" FontSize="16" FontFamily="Arial" FontWeight="Bold" Height="191" Margin="552,10,0,0" VerticalAlignment="Top" Width="230">
+        <GroupBox Name="xComorbidConditionsGroupbox" Header="Check if Patient Is/Has:" HorizontalAlignment="Left" Foreground="White" FontSize="16" FontFamily="Arial" FontWeight="Bold" Height="191" Margin="261,10,0,0" VerticalAlignment="Top" Width="230">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="4*"/>
@@ -23,21 +23,39 @@
                 <CheckBox Name="xPleuralEffusionCheckbox" Content="Pleural Effusion on Xray" Foreground="White" Margin="7,147,-7,-7" Grid.ColumnSpan="2"/>
             </Grid>
         </GroupBox>
-        <Button Name="xCalculateButton" Content="Calculate" HorizontalAlignment="Left" Margin="348,353,0,0" VerticalAlignment="Top" Width="108" Height="36"/>
-        <TextBox Name="xAgeTextbox" HorizontalAlignment="Left" Height="23" Margin="97,21,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Name="xCalculateButton" Content="Calculate" HorizontalAlignment="Left" Margin="311,247,0,0" VerticalAlignment="Top" Width="108" Height="36"/>
+        <TextBox Name="xAgeTextbox" HorizontalAlignment="Left" Height="23" Margin="50,21,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50"/>
         <Label Content="Age:" HorizontalAlignment="Left" Margin="10,21,0,0" Foreground="White" FontFamily="arial" VerticalAlignment="Top"/>
         <Label Content="Sex:" HorizontalAlignment="Left" Margin="10,60,0,0" Foreground="White" VerticalAlignment="Top"/>
-        <RadioButton Name="xMaleSexRadioButton" GroupName="SexGroup" Content="Male" Foreground="White" HorizontalAlignment="Left" Margin="97,66,0,0" VerticalAlignment="Top" IsChecked="True"/>
-        <RadioButton Name="xFemaleSexRadioButton" GroupName="SexGroup" Content="Female" Foreground="White" HorizontalAlignment="Left" Margin="160,66,0,0" VerticalAlignment="Top"/>
+        <RadioButton Name="xMaleSexRadioButton" GroupName="SexGroup" Content="Male" Foreground="White" HorizontalAlignment="Left" Margin="50,66,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <RadioButton Name="xFemaleSexRadioButton" GroupName="SexGroup" Content="Female" Foreground="White" HorizontalAlignment="Left" Margin="113,66,0,0" VerticalAlignment="Top"/>
         <Label Content="Respiratory Rate (breaths/min):" Foreground="White" HorizontalAlignment="Left" Margin="10,91,0,0" VerticalAlignment="Top"/>
-        <Label Content="Systolic Blood Pressure (mmHG):" Foreground="White" HorizontalAlignment="Left" Margin="10,117,0,0" VerticalAlignment="Top"/>
+        <Label Content="Systolic Blood Pressure (mmHg):" Foreground="White" HorizontalAlignment="Left" Margin="10,117,0,0" VerticalAlignment="Top"/>
         <Label Content="Temperature:" Foreground="White" HorizontalAlignment="Left" Margin="10,143,0,0" VerticalAlignment="Top"/>
-        <Label Content="Pulse (beats/min):" Foreground="White" HorizontalAlignment="Left" Margin="10,169,0,0" VerticalAlignment="Top"/>
+        <Label Content="Pulse (beats/min):" Foreground="White" HorizontalAlignment="Left" Margin="10,171,0,0" VerticalAlignment="Top"/>
         <Label Content="pH:" Foreground="White" HorizontalAlignment="Left" Margin="10,195,0,0" VerticalAlignment="Top"/>
         <Label Content="BUN:" Foreground="White" HorizontalAlignment="Left" Margin="10,221,0,0" VerticalAlignment="Top"/>
         <Label Content="Sodium (mmol/L):" Foreground="White" HorizontalAlignment="Left" Margin="10,247,0,0" VerticalAlignment="Top"/>
         <Label Content="Glucose:" Foreground="White" HorizontalAlignment="Left" Margin="10,273,0,0" VerticalAlignment="Top"/>
-        <Label Content="Hematocrit:" Foreground="White" HorizontalAlignment="Left" Margin="10,299,0,0" VerticalAlignment="Top"/>
+        <Label Content="Hematocrit (%):" Foreground="White" HorizontalAlignment="Left" Margin="10,299,0,0" VerticalAlignment="Top"/>
         <Label Content="Partial Pressure of Oxygen:" Foreground="White" HorizontalAlignment="Left" Margin="10,325,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="xRespiratoryRateTextbox" HorizontalAlignment="Left" Height="23" Margin="195,94,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50"/>
+        <TextBox Name="xBloodPressureTextbox" HorizontalAlignment="Left" Height="23" Margin="195,120,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50"/>
+        <TextBox Name="xTemperatureTextbox" HorizontalAlignment="Left" Height="23" Margin="95,146,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50"/>
+        <RadioButton Name="xCelciusRadioButton" GroupName="Temp" Content="C" Foreground="White" HorizontalAlignment="Left" Margin="158,152,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <RadioButton x:Name="xFahrenheitRadioButton" GroupName="Temp" Content="F" Foreground="White" HorizontalAlignment="Left" Margin="195,152,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="xPulseTextbox" HorizontalAlignment="Left" Height="23" Margin="114,174,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50"/>
+        <TextBox Name="xPHTextbox" HorizontalAlignment="Left" Height="23" Margin="42,197,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50"/>
+        <TextBox Name="xBUNTextbox" HorizontalAlignment="Left" Height="23" Margin="51,223,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50"/>
+        <TextBox Name="xSodiumTextbox" HorizontalAlignment="Left" Height="23" Margin="117,250,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50"/>
+        <TextBox Name="xGlucoseTextbox" HorizontalAlignment="Left" Height="23" Margin="65,276,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50"/>
+        <TextBox Name="xHematocritTextbox" HorizontalAlignment="Left" Height="23" Margin="105,302,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50"/>
+        <TextBox Name="xPPOTextbox" HorizontalAlignment="Left" Height="23" Margin="164,328,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50"/>
+        <RadioButton Name="xBUNmgdlRadioButton" GroupName="Bun" Content="mg/dL" Foreground="White" HorizontalAlignment="Left" Margin="114,227,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <RadioButton Name="xGlucosemgdlRadioButton" GroupName="Glucose" Content="mg/dL" Foreground="White" HorizontalAlignment="Left" Margin="121,281,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <RadioButton Name="xmmhgRadioButton" GroupName="PPO" Content="mmHg" Foreground="White" HorizontalAlignment="Left" Margin="224,332,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <RadioButton Name="xkpaRadioButton" GroupName="PPO" Content="kPa" Foreground="White" HorizontalAlignment="Left" Margin="287,332,0,0" VerticalAlignment="Top" IsChecked="False"/>
+        <RadioButton Name="xBUNmmolRadioButton" GroupName="Bun" Content="mmol/L" Foreground="White" HorizontalAlignment="Left" Margin="175,227,0,0" VerticalAlignment="Top"/>
+        <RadioButton Name="xGlucosemmolRadioButton" GroupName="Glucose" Content="mmol/L" Foreground="White" HorizontalAlignment="Left" Margin="185,281,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
