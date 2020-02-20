@@ -1,0 +1,14 @@
+C:\Users\andre\source\repos\PSI_AST\PSI_AST\bin\Debug\PSI_AST.exe.config
+C:\Users\andre\source\repos\PSI_AST\PSI_AST\bin\Debug\PSI_AST.exe
+C:\Users\andre\source\repos\PSI_AST\PSI_AST\bin\Debug\PSI_AST.pdb
+C:\Users\andre\source\repos\PSI_AST\PSI_AST\obj\Debug\PSI_AST.csprojAssemblyReference.cache
+C:\Users\andre\source\repos\PSI_AST\PSI_AST\obj\Debug\MainWindow.g.cs
+C:\Users\andre\source\repos\PSI_AST\PSI_AST\obj\Debug\App.g.cs
+C:\Users\andre\source\repos\PSI_AST\PSI_AST\obj\Debug\PSI_AST_MarkupCompile.cache
+C:\Users\andre\source\repos\PSI_AST\PSI_AST\obj\Debug\PSI_AST_MarkupCompile.lref
+C:\Users\andre\source\repos\PSI_AST\PSI_AST\obj\Debug\MainWindow.baml
+C:\Users\andre\source\repos\PSI_AST\PSI_AST\obj\Debug\PSI_AST.g.resources
+C:\Users\andre\source\repos\PSI_AST\PSI_AST\obj\Debug\PSI_AST.Properties.Resources.resources
+C:\Users\andre\source\repos\PSI_AST\PSI_AST\obj\Debug\PSI_AST.csproj.GenerateResource.cache
+C:\Users\andre\source\repos\PSI_AST\PSI_AST\obj\Debug\PSI_AST.exe
+C:\Users\andre\source\repos\PSI_AST\PSI_AST\obj\Debug\PSI_AST.pdb

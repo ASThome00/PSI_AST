@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PSI_AST"
         mc:Ignorable="d"
-        Title="PSI" Height="393.2" Width="503.2" Background="#FF2C2F33">
+        Title="PSI" Height="393.2" Width="517.6" Background="#FF2C2F33">
     <Grid>
         <GroupBox Name="xComorbidConditionsGroupbox" Header="Check if Patient Is/Has:" HorizontalAlignment="Left" Foreground="White" FontSize="16" FontFamily="Arial" FontWeight="Bold" Height="191" Margin="261,10,0,0" VerticalAlignment="Top" Width="230">
             <Grid>
