@@ -12,3 +12,17 @@ C:\Users\andre\source\repos\PSI_AST\PSI_AST\obj\Debug\PSI_AST.Properties.Resourc
 C:\Users\andre\source\repos\PSI_AST\PSI_AST\obj\Debug\PSI_AST.csproj.GenerateResource.cache
 C:\Users\andre\source\repos\PSI_AST\PSI_AST\obj\Debug\PSI_AST.exe
 C:\Users\andre\source\repos\PSI_AST\PSI_AST\obj\Debug\PSI_AST.pdb
+C:\Users\AXT3962\source\repos\PSI_AST\PSI_AST\bin\Debug\PSI_AST.exe.config
+C:\Users\AXT3962\source\repos\PSI_AST\PSI_AST\bin\Debug\PSI_AST.exe
+C:\Users\AXT3962\source\repos\PSI_AST\PSI_AST\bin\Debug\PSI_AST.pdb
+C:\Users\AXT3962\source\repos\PSI_AST\PSI_AST\obj\Debug\PSI_AST.csprojAssemblyReference.cache
+C:\Users\AXT3962\source\repos\PSI_AST\PSI_AST\obj\Debug\MainWindow.g.cs
+C:\Users\AXT3962\source\repos\PSI_AST\PSI_AST\obj\Debug\App.g.cs
+C:\Users\AXT3962\source\repos\PSI_AST\PSI_AST\obj\Debug\PSI_AST_MarkupCompile.cache
+C:\Users\AXT3962\source\repos\PSI_AST\PSI_AST\obj\Debug\PSI_AST_MarkupCompile.lref
+C:\Users\AXT3962\source\repos\PSI_AST\PSI_AST\obj\Debug\MainWindow.baml
+C:\Users\AXT3962\source\repos\PSI_AST\PSI_AST\obj\Debug\PSI_AST.g.resources
+C:\Users\AXT3962\source\repos\PSI_AST\PSI_AST\obj\Debug\PSI_AST.Properties.Resources.resources
+C:\Users\AXT3962\source\repos\PSI_AST\PSI_AST\obj\Debug\PSI_AST.csproj.GenerateResource.cache
+C:\Users\AXT3962\source\repos\PSI_AST\PSI_AST\obj\Debug\PSI_AST.exe
+C:\Users\AXT3962\source\repos\PSI_AST\PSI_AST\obj\Debug\PSI_AST.pdb
